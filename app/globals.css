@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.background-gradient {
+  background:radial-gradient(
+    circle at top center,
+    hsla(222, 80%, 60%, 0.5) 0%,
+    hsla(222, 0%, 0%, 0) 50%,
+    hsla(222, 0%, 0%, 0) 100%
+  );
+}
+h1{
+  font-size: 80px;
+  font-weight: 900;
+}
+h2{
+  font-size: 60px;
+  font-weight: 600;
+}
